@@ -1,0 +1,17 @@
+{
+  "name": "spy-and-optimize",
+  "version": "1.0.0",
+  "description": "Module to spy on image directory and automatically optimize the image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Kopczewski",
+  "license": "MIT",
+  "dependencies": {
+    "globby": "^6.1.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.4.0",
+    "imagemin-jpegoptim": "^5.1.0"
+  }
+}
