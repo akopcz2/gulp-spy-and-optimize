@@ -78,8 +78,7 @@ class SpyAndOptimize {
         });
     }
 }
-
-module.export = SpyAndOptimize;
+module.exports = SpyAndOptimize;
 
 
 
