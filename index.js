@@ -78,7 +78,7 @@ class SpyAndOptimize {
         });
     }
 }
-module.exports = SpyAndOptimize;
+module.exports = new SpyAndOptimize();
 
 
 
