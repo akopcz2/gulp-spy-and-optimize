@@ -1,6 +1,6 @@
 {
   "name": "gulp-spy-and-optimize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module to spy on image directory and automatically optimize the image",
   "main": "index.js",
   "scripts": {
