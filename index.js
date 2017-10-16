@@ -15,8 +15,8 @@ const paths = {
 
 const pluginName = 'SPY_AND_OPTIMIZE';
 
-class spyAndOptimize{
-    constructor(options){
+class SpyAndOptimize {
+    constructor(options) {
 
         this.defaults = {
             path: '/public/static/images'
@@ -25,6 +25,7 @@ class spyAndOptimize{
         this.settings = extend({}, this.defaults, options);
 
     }
+    
     /**
      * Takes a single argument(string) and passes it to the gatherImages method
      * @param {string} path - string of path where images are located
@@ -78,7 +79,10 @@ class spyAndOptimize{
     }
 }
 
-module.exports = new spyAndOptimize();
+module.export = SpyAndOptimize;
+
+
+
 
 
 
