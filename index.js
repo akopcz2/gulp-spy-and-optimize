@@ -23,7 +23,7 @@ class SpyAndOptimize {
         };
 
         this.settings = extend({}, this.defaults, options);
-
+        this.init(path);
     }
     
     /**
@@ -39,7 +39,6 @@ class SpyAndOptimize {
      * @param {string} file - string of file to optimize
      */
     optimizeImage(file) {
-        console.log(file);
         gulp.src(file)
         .pipe(imagemin([
             imagemin.gifsicle(),
