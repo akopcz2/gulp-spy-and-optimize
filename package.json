@@ -13,5 +13,9 @@
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.4.0",
     "imagemin-jpegoptim": "^5.1.0"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/akopcz2/gulp-spy-and-optimize"
   }
 }
