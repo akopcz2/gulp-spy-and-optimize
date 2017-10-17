@@ -1,6 +1,6 @@
 {
   "name": "gulp-spy-and-optimize",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Module to spy on image directory and automatically optimize the image",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "imagemin-jpegoptim": "^5.1.0"
   },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/akopcz2/gulp-spy-and-optimize"
+    "type": "git",
+    "url": "https://github.com/akopcz2/gulp-spy-and-optimize"
   }
 }
