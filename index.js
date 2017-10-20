@@ -77,7 +77,9 @@ class SpyAndOptimize {
         });
     }
 }
-module.exports = new SpyAndOptimize();
+module.exports = function spy(options) {
+	return new SpyAndOptimize(options);
+};
 
 
 
